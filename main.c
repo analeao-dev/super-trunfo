@@ -33,7 +33,14 @@ int main()
   scanf("%f", &pib1);
 
   // Primeira Carta: Saída de dados
-  // printf("Estado: %c\n", estado1);
+  printf("================= 1ª CARTA ====================\n");
+  printf("Estado: %c\n", estado1);
+  printf("Código: %s\n", codigoCarta1);
+  printf("Cidade: %s\n", cidade1);
+  printf("Populaçao: %d\n", populacao1);
+  printf("Pontos turísticos: %d\n", pontosTuristicos1);
+  printf("Área: %.2f\n", area1);
+  printf("PIB: %.2f\n", pib1);
 
   return 0;
 }
